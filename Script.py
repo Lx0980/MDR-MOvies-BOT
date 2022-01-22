@@ -136,6 +136,6 @@ This module only works for my admins
 𝑨𝒅𝒅𝒆𝒅 𝑩𝒚 - {}
 """
     LOG_TEXT_P = """#NewUser
-ID - <code>{}</code>
-Name - {}
+𝑰𝑫 - <code>{}</code>
+𝑵𝒂𝒎𝒆 - {}
 """
