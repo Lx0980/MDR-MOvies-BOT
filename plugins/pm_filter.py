@@ -431,6 +431,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[                        
             InlineKeyboardButton('𝖨𝖬𝖣𝖻 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌❓', callback_data='contectt')
             ],[
+            InlineKeyboardButton('𝖥𝗂𝗅𝖾 𝖲𝗍𝗈𝗋𝖾 📁', callback_data='filestore')            
+            ],[
             InlineKeyboardButton('🔙 𝖡𝖠𝖢𝖪', callback_data='start'),            
             InlineKeyboardButton('🔐 𝖢𝗅𝗈𝗌𝖾', callback_data='close_data')
         ]]
@@ -470,6 +472,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
+    elif query.data == "filestore":
+        buttons = [[
+            InlineKeyboardButton('👩‍🦯 Back', callback_data='help'),
+            InlineKeyboardButton('Home', callback_data='start')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.FILESTORE_TXT,
+            reply_markup=reply_markup,
+            parse_mode='html'
+        )    
     elif query.data == "manuelfilter":
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='help'),
@@ -480,7 +493,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.MANUELFILTER_TXT,
             reply_markup=reply_markup,
             parse_mode='html'
-        )    
+        )
     elif query.data == "button":
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='manuelfilter')
