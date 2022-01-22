@@ -4,8 +4,7 @@ MY NAME IS 𝖣𝖥𝖥 𝖨𝖬𝖣𝖻 𝖡𝗈𝖳,
 
 <i>I am a simple IMDb bot. I can give you IMDb data of any movie/series.</i>
 """
-    HELP_TXT = """HEY {}
-<b> Here is The My Commands.</b>
+    HELP_TXT = """<b> Here is The My Commands.</b>
 
 """
     ABOUT_TXT = """<b>Here is about me</b>
@@ -132,9 +131,9 @@ This module only works for my admins
 <i>@DFF_UPDATE</i>
 """
     LOG_TEXT_G = """#NewGroup
-Group = {}(<code>{}</code>)
-Total Members = <code>{}</code>
-Added By - {}
+𝑮𝒓𝒐𝒖𝒑 = {}(<code>{}</code>)
+𝑻𝒐𝒕𝒂𝒍 𝑴𝒆𝒎𝒃𝒆𝒓𝒔 = <code>{}</code>
+𝑨𝒅𝒅𝒆𝒅 𝑩𝒚 - {}
 """
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
