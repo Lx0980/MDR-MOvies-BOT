@@ -123,11 +123,14 @@ This module only works for my admins
 
 <b>© @DFF_UPDATE</b>
 """
-    STATUS_TXT = """<b>★ Total Files:</b> <code>{}</code>
-<b>★ Total Users:</b> <code>{}</code>
-<b>★ Total Chats:</b> <code>{}</code>
-<b>★ Used Storage:</b> <code>{}</code> 𝙼𝚒𝙱
-<b>★ Free Storage:</b> <code>{}</code> 𝙼𝚒𝙱"""
+    STATUS_TXT = """<b>🎬 𝑻𝒐𝒕𝒂𝒍 𝒇𝒊𝒍𝒆𝒔:</b> <code>{}</code>
+<b>👥 𝑻𝒐𝒕𝒂𝒍 𝑼𝒔𝒆𝒓𝒔:</b> <code>{}</code>
+<b>🔖 𝑻𝒐𝒕𝒂𝒍 𝑪𝒉𝒂𝒕𝒔:</b> <code>{}</code>
+<b>📂 𝑼𝒔𝒆𝒅 𝑺𝒕𝒐𝒓𝒂𝒈𝒆:</b> <code>{}</code> 𝙼𝚒𝙱
+<b>📁 𝑭𝒓𝒆𝒆 𝑺𝒕𝒐𝒓𝒂𝒈𝒆:</b> <code>{}</code> 𝙼𝚒𝙱
+
+<i>@DFF_UPDATE</i>
+"""
     LOG_TEXT_G = """#NewGroup
 Group = {}(<code>{}</code>)
 Total Members = <code>{}</code>
