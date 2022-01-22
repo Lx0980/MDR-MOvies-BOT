@@ -3,8 +3,7 @@ class script(object):
 MY NAME IS 𝖣𝖥𝖥 𝖨𝖬𝖣𝖻 𝖡𝗈𝖳, 
 
 <i>I am a simple IMDb bot. I can give you IMDb data of any movie/series.</i>
-
-<b>Made With ❤ BY @DFF_UPDATE</b>"""
+"""
     HELP_TXT = """HEY {}
 <b> Here is The My Commands.</b>
 
