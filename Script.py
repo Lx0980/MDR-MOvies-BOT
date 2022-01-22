@@ -32,6 +32,14 @@ MY NAME IS 𝖣𝖥𝖥 𝖨𝖬𝖣𝖻 𝖡𝗈𝖳,
 - Source - If you want SOURCE CODE then talk to admin. 👍🏼</i>
       
 <b>Made With ❤ BY @DFF_UPDATE</b>"""
+    FILESTORE_TXT = """<b>Files Store</b>
+Files Store
+- This module will allow you to store files on this bot and share the link !!
+Command
+- /link - To store one file
+- /batch - To Store Batch Files More than One
+
+Made by @DFF_UPDATE 
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
