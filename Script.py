@@ -28,9 +28,8 @@ MY NAME IS 𝖣𝖥𝖥 𝖨𝖬𝖣𝖻 𝖡𝗈𝖳,
     SOURCE_TXT = """<b>NOTE:</b>
 <b>how are you guys. any problem ? 😄</b>
 
-<i>- DFF IMDb BOT is a open source project. 
-- Source - If you want SOURCE CODE then talk to admin. 👍🏼</i>
-      
+<i>- DFF IMDb BOT is a open source project.</i>
+
 <b>Made With ❤ BY @DFF_UPDATE</b>"""
     FILESTORE_TXT = """<b>Files Store</b>
 Files Store
