@@ -158,10 +158,10 @@ async def imdb_callback(bot: Client, query: CallbackQuery):
             ]
         ]
     if imdb.get('poster'):
-        await query.message.reply_photo(photo=imdb['poster'], caption=f"IMDb Data:\n\n🏷 Title: <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Genres: {imdb.get('genres')}\n📆 Year: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Rating: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n📆 Release Info : {release_date}\n🖋 StoryLine: <code>{imdb.get('plot')} </code>\n\n<b>© @DFF_UPDATE</b>", reply_markup=InlineKeyboardMarkup(btn))
+        await query.message.reply_photo(photo=imdb['poster'], caption=f"IMDb Data:\n\n🏷 𝖳𝗂𝗍𝗅𝖾: <a href={imdb['url']}>{imdb.get('title')}</a>\n\n🎭 𝖦𝖾𝗇𝗋𝖾𝗌: {imdb.get('genres')}\n\n📆 𝖸𝖾𝖺𝗋: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n\n🌟 𝖱𝖺𝗍𝗂𝗇𝗀: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n\n🖋 𝖲𝗍𝗈𝗋𝗒𝖫𝗂𝗇𝖾: <code>{imdb.get('plot')} </code>\n\n<b>© @DFF_UPDATE</b>", reply_markup=InlineKeyboardMarkup(btn))
         await query.message.delete()
     else:
-        await query.message.edit(f"IMDb Data:\n\n🏷 Title: <a href={imdb['url']}>{imdb.get('title')}</a>\n🎭 Genres: {imdb.get('genres')}\n📆 Year: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n🌟 Rating: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n📆 Release Info : {release_date}\n🖋 StoryLine: <code>{imdb.get('plot')} </code>\n\n<b>© @DFF_UPDATE</b>", reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=True)
+        await query.message.edit(f"IMDb Data:\n\n🏷 𝖳𝗂𝗍𝗅𝖾: <a href={imdb['url']}>{imdb.get('title')}</a>\n\n🎭 𝖦𝖾𝗇𝗋𝖾𝗌: {imdb.get('genres')}\n\n📆 𝖸𝖾𝖺𝗋: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n\n🌟 𝖱𝖺𝗍𝗂𝗇𝗀: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10\n\n🖋 𝖲𝗍𝗈𝗋𝗒𝖫𝗂𝗇𝖾: <code>{imdb.get('plot')} </code>\n\n<b>© @DFF_UPDATE</b>", reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=True)
     await query.answer()
 
 
