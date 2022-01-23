@@ -16,7 +16,7 @@ MY NAME IS 𝖣𝖥𝖥 𝖨𝖬𝖣𝖻 𝖡𝗈𝖳,
 • /imdb  - <code>get the film information from IMDb source.</code>
 • /search  - <code>get the film information from various sources.</code>  
 
-     <b>© @DFF_UPDATE</b>"""
+     <b>© @MDR_MOVIES</b>"""
     CONTECTTR_TXT = """<b>Files Store</b>
 Files Store
 - This module will allow you to store files on this bot and share the link !!
@@ -24,20 +24,20 @@ Command
 - /link - To store one file
 - /batch - To Store Batch Files More than One
 
-Made by @DFF_UPDATE"""
+Made by @MDR_MOVIES"""
     CONTECTT_TXT = """<b>IMDb Modules</b> 
 
 <b>Commands and Usage:</b>
 • /imdb  - <code>get the film information from IMDb source.</code>
 • /search  - <code>get the film information from various sources.</code>  
 
-     <b>© @DFF_UPDATE</b>"""
+     <b>© @MDR_MOVIES</b>"""
     SOURCE_TXT = """<b>NOTE:</b>
 <b>how are you guys. any problem ? 😄</b>
 
 <i>- DFF IMDb BOT is a open source project.</i>
 
-<b>Made With ❤ BY @DFF_UPDATE</b>"""
+<b>Made With ❤ BY @MDR_MOVIES</b>"""
     FILESTORE_TXT = """<b>Files Store</b>
 Files Store
 - This module will allow you to store files on this bot and share the link !!
@@ -45,7 +45,7 @@ Command
 - /link - To store one file
 - /batch - To Store Batch Files More than One
 
-Made by @HQFilms4U"""
+Made by @MDR_MOVIES"""
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and EvaMaria will respond whenever a keyword is found the message
@@ -120,7 +120,7 @@ This module only works for my admins
 • /channel - <code>to get list of total connected channels</code>
 • /broadcast - <code>to broadcast a message to all users</code>
 
-<b>© @DFF_UPDATE</b>
+<b>© @MDR_MOVIES</b>
 """
     STATUS_TXT = """<b>🎬 𝑻𝒐𝒕𝒂𝒍 𝒇𝒊𝒍𝒆𝒔:</b> <code>{}</code>
 <b>👥 𝑻𝒐𝒕𝒂𝒍 𝑼𝒔𝒆𝒓𝒔:</b> <code>{}</code>
@@ -128,7 +128,7 @@ This module only works for my admins
 <b>📂 𝑼𝒔𝒆𝒅 𝑺𝒕𝒐𝒓𝒂𝒈𝒆:</b> <code>{}</code> MiB
 <b>📁 𝑭𝒓𝒆𝒆 𝑺𝒕𝒐𝒓𝒂𝒈𝒆:</b> <code>{}</code> MiB
 
-<i>@DFF_UPDATE</i>
+<i>@MDR_MOVIES</i>
 """
     LOG_TEXT_G = """#NewGroup
 𝑮𝒓𝒐𝒖𝒑 = {}(<code>{}</code>)
