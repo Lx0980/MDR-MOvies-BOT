@@ -1,6 +1,6 @@
 class script(object):
     START_TXT = """<b>Hello</b> {}
-MY NAME IS 𝖣𝖥𝖥 𝖨𝖬𝖣𝖻 𝖡𝗈𝖳, 
+MY NAME IS 𝖬𝖣𝖱 𝖬𝖮𝖵𝖨𝖤𝖲 𝖡𝖮𝖳, 
 
 <i>I am a simple IMDb bot. I can give you IMDb data of any movie/series.</i>
 """
